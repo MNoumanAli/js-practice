@@ -1,0 +1,10 @@
+body{
+    margin: 50px;
+}
+#input{
+    padding: 7px;
+    border-radius: 5px;
+}
+#btn_time{
+    padding: 7px;
+}
