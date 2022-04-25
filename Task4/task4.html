@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <form>
+            <label for="name">Enter Name</label>
+            <input type="text" name="name" placeholder="Name"><br>
+
+            <label for="email">Enter Email</label>
+            <input id="email" type="text" name="email"><br>
+            <span id="inEmail"></span>
+
+            <label for="paswd">Enter PassWord</label>
+            <input id = "psswd" type="password" name="paswd"><br>
+
+            
+            <label for="cpaswd">Conform PassWord</label>
+            <input id = "cpsswd" type="password" name="cpaswd" ><br>
+            <span id="inValP"></span>
+
+            <label for="phone">Enter Phone</label>
+            <input type="text" name="phone" placeholder="03X-XXXXXXXX"><br>
+
+            <input onclick="checkForm()" type="button" value="Submit">
+        </form>
+    </center>
+
+    <script src="formValid.js">
+
+    </script>
+</body>
+</html>
