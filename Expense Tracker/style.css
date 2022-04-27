@@ -1,0 +1,52 @@
+.main{
+    box-shadow: 0 0 10px gray;
+    width: 400px;
+  
+    padding: 15px;
+    margin: 0 auto;
+}
+.incExp{
+    box-shadow: 0 0 4px black;
+    border-radius: 5px;
+    display: flex;
+    flex: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.income, .expense{
+    flex: 49%;
+    text-align: center;
+}
+.income{
+    border-right: 1px solid black;
+}
+
+.history, .transaction{
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.transaction{
+    display: block;
+}
+
+.text, .amount{
+    padding: 8px;
+    width: 95%;
+    margin-bottom: 20px;
+}
+
+.add-btn{
+    padding: 10px;
+    width: 100%;
+    border-style: none;
+    margin-bottom: 20px;
+    background-color: rgb(124, 32, 209);
+    color: white;
+}
+
+#item{
+    display: none;
+}
