@@ -1,0 +1,18 @@
+.list{
+    width: 35%;
+    box-shadow: 0 0 5px gray;
+}
+
+#todo{
+    padding: 10px;
+    width: 95%;
+    font-size: 20px;
+}
+
+#submit{
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(113, 34, 187);
+}
